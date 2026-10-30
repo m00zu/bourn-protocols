@@ -1,5 +1,5 @@
 {
-  "format": "rill-protocol",
+  "format": "bourn-protocol",
   "version": 1,
   "title": {
     "en": "RNA extraction (spin column)",
@@ -27,7 +27,7 @@
     {
       "use": "u-cells",
       "role": "cultured cells",
-      "kind": "rill:cell-line",
+      "kind": "bourn:cell-line",
       "fields": {
         "species": "text",
         "tissue": "text",
@@ -39,7 +39,7 @@
     {
       "use": "u-pbs",
       "role": "PBS",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -54,7 +54,7 @@
     {
       "use": "u-trypsin",
       "role": "0.25% trypsin",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -67,7 +67,7 @@
     {
       "use": "u-kit",
       "role": "RNA spin-column kit",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -80,7 +80,7 @@
     {
       "use": "u-rlt",
       "role": "lysis buffer",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -95,7 +95,7 @@
     {
       "use": "u-bme",
       "role": "β-mercaptoethanol",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -108,7 +108,7 @@
     {
       "use": "u-eth",
       "role": "70% ethanol",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -123,7 +123,7 @@
     {
       "use": "u-rw1",
       "role": "wash buffer 1",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -138,7 +138,7 @@
     {
       "use": "u-rpe",
       "role": "wash buffer 2 (with ethanol)",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -153,7 +153,7 @@
     {
       "use": "u-water",
       "role": "RNase-free water",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -168,7 +168,7 @@
     {
       "use": "u-shredder",
       "role": "homogenizer spin column",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -179,7 +179,7 @@
     {
       "use": "u-zap",
       "role": "RNase decontamination solution",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -194,7 +194,7 @@
     {
       "use": "i-centrifuge",
       "role": "microcentrifuge",
-      "kind": "rill:instrument-centrifuge",
+      "kind": "bourn:instrument-centrifuge",
       "fields": {
         "model": "text",
         "manufacturer": "text",
@@ -207,7 +207,7 @@
     {
       "use": "i-nanodrop",
       "role": "microvolume spectrophotometer",
-      "kind": "rill:instrument-spectrophotometer",
+      "kind": "bourn:instrument-spectrophotometer",
       "fields": {
         "model": "text",
         "manufacturer": "text",

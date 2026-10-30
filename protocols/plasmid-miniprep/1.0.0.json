@@ -1,5 +1,5 @@
 {
-  "format": "rill-protocol",
+  "format": "bourn-protocol",
   "version": 1,
   "title": {
     "en": "Plasmid miniprep (spin column)",
@@ -28,7 +28,7 @@
     {
       "use": "u-culture",
       "role": "overnight E. coli culture",
-      "kind": "rill:other",
+      "kind": "bourn:other",
       "fields": {
         "notes": "text"
       }
@@ -36,7 +36,7 @@
     {
       "use": "u-medium",
       "role": "culture medium (blank)",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -51,7 +51,7 @@
     {
       "use": "u-kit",
       "role": "plasmid miniprep kit (spin columns)",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -64,7 +64,7 @@
     {
       "use": "u-b1",
       "role": "resuspension buffer (with RNase A)",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -79,7 +79,7 @@
     {
       "use": "u-b2",
       "role": "lysis buffer",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -94,7 +94,7 @@
     {
       "use": "u-b3",
       "role": "neutralization buffer",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -109,7 +109,7 @@
     {
       "use": "u-bz",
       "role": "binding/wash buffer (with isopropanol)",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -124,7 +124,7 @@
     {
       "use": "u-wz",
       "role": "wash buffer (with ethanol)",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -139,7 +139,7 @@
     {
       "use": "u-elution",
       "role": "elution buffer or nuclease-free water",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -154,7 +154,7 @@
     {
       "use": "u-bleach",
       "role": "10% bleach",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -169,7 +169,7 @@
     {
       "use": "u-plate",
       "role": "clear 96-well plate",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -180,7 +180,7 @@
     {
       "use": "u-tubes",
       "role": "1.5 mL microcentrifuge tubes",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -193,7 +193,7 @@
     {
       "use": "i-reader",
       "role": "plate reader",
-      "kind": "rill:instrument-plate-reader",
+      "kind": "bourn:instrument-plate-reader",
       "fields": {
         "model": "text",
         "manufacturer": "text",
@@ -206,7 +206,7 @@
     {
       "use": "i-centrifuge",
       "role": "microcentrifuge",
-      "kind": "rill:instrument-centrifuge",
+      "kind": "bourn:instrument-centrifuge",
       "fields": {
         "model": "text",
         "manufacturer": "text",
@@ -219,7 +219,7 @@
     {
       "use": "i-nanodrop",
       "role": "microvolume spectrophotometer",
-      "kind": "rill:instrument-spectrophotometer",
+      "kind": "bourn:instrument-spectrophotometer",
       "fields": {
         "model": "text",
         "manufacturer": "text",

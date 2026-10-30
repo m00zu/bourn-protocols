@@ -1,5 +1,5 @@
 {
-  "format": "rill-protocol",
+  "format": "bourn-protocol",
   "version": 1,
   "title": {
     "en": "Agarose gel electrophoresis",
@@ -27,7 +27,7 @@
     {
       "use": "u-agarose",
       "role": "agarose",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -40,7 +40,7 @@
     {
       "use": "u-tae50",
       "role": "50X TAE buffer",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -55,7 +55,7 @@
     {
       "use": "u-water",
       "role": "deionized water",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -70,7 +70,7 @@
     {
       "use": "u-stain",
       "role": "DNA gel stain (SYBR Safe or similar)",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -83,7 +83,7 @@
     {
       "use": "u-ladder",
       "role": "DNA ladder",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -96,7 +96,7 @@
     {
       "use": "u-dye",
       "role": "6X loading dye",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -109,7 +109,7 @@
     {
       "use": "u-samples",
       "role": "DNA samples",
-      "kind": "rill:other",
+      "kind": "bourn:other",
       "fields": {
         "notes": "text"
       }
@@ -117,7 +117,7 @@
     {
       "use": "u-strips",
       "role": "PCR strip tubes",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -130,7 +130,7 @@
     {
       "use": "i-power",
       "role": "power supply",
-      "kind": "rill:instrument-other",
+      "kind": "bourn:instrument-other",
       "fields": {
         "model": "text",
         "manufacturer": "text",
@@ -143,7 +143,7 @@
     {
       "use": "i-imager",
       "role": "gel imager",
-      "kind": "rill:instrument-other",
+      "kind": "bourn:instrument-other",
       "fields": {
         "model": "text",
         "manufacturer": "text",

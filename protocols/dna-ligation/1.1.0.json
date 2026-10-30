@@ -1,5 +1,5 @@
 {
-  "format": "rill-protocol",
+  "format": "bourn-protocol",
   "version": 1,
   "title": {
     "en": "Ligation (T4 DNA ligase)",
@@ -27,7 +27,7 @@
     {
       "use": "u-vector",
       "role": "linearized vector",
-      "kind": "rill:plasmid",
+      "kind": "bourn:plasmid",
       "fields": {
         "backbone": "text",
         "insert": "text",
@@ -41,7 +41,7 @@
     {
       "use": "u-insert",
       "role": "insert DNA",
-      "kind": "rill:other",
+      "kind": "bourn:other",
       "fields": {
         "notes": "text"
       }
@@ -49,7 +49,7 @@
     {
       "use": "u-buffer",
       "role": "10X T4 DNA ligase buffer",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -62,7 +62,7 @@
     {
       "use": "u-ligase",
       "role": "T4 DNA ligase",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -75,7 +75,7 @@
     {
       "use": "u-water",
       "role": "nuclease-free water",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -90,7 +90,7 @@
     {
       "use": "u-cells",
       "role": "competent E. coli",
-      "kind": "rill:other",
+      "kind": "bourn:other",
       "fields": {
         "notes": "text"
       }
@@ -100,7 +100,7 @@
     {
       "use": "i-block",
       "role": "thermocycler or heat block",
-      "kind": "rill:instrument-other",
+      "kind": "bourn:instrument-other",
       "fields": {
         "model": "text",
         "manufacturer": "text",

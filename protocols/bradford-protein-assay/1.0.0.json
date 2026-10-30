@@ -1,5 +1,5 @@
 {
-  "format": "rill-protocol",
+  "format": "bourn-protocol",
   "version": 1,
   "title": {
     "en": "Bradford protein assay (microplate)",
@@ -27,7 +27,7 @@
     {
       "use": "u-reagent",
       "role": "Bradford dye reagent",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -40,7 +40,7 @@
     {
       "use": "u-bsa",
       "role": "BSA stock (4 mg/mL)",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -53,7 +53,7 @@
     {
       "use": "u-buffer",
       "role": "buffer (PBS, or the samples' buffer)",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -68,7 +68,7 @@
     {
       "use": "u-samples",
       "role": "protein samples",
-      "kind": "rill:other",
+      "kind": "bourn:other",
       "fields": {
         "notes": "text"
       }
@@ -76,7 +76,7 @@
     {
       "use": "u-plate",
       "role": "clear flat-bottom 96-well plate",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -87,7 +87,7 @@
     {
       "use": "u-laemmli",
       "role": "4× Laemmli sample buffer",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -102,7 +102,7 @@
     {
       "use": "i-reader",
       "role": "plate reader (595 nm)",
-      "kind": "rill:instrument-plate-reader",
+      "kind": "bourn:instrument-plate-reader",
       "fields": {
         "model": "text",
         "manufacturer": "text",

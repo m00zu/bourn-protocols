@@ -1,11 +1,11 @@
-# Rill protocol catalogue
+# Bourn protocol catalogue
 
-Protocols for [Rill](https://github.com/m00zu)'s Bench: tested starting points that a person reads, copies into their
-own library, links to their own materials and runs as experiments. Rill reads `index.json` from this repository;
-each version of a protocol is a file at `protocols/<id>/<version>.json` in Rill's protocol format, with boxes that are
+Protocols for [Bourn](https://github.com/m00zu)'s Bench: tested starting points that a person reads, copies into their
+own library, links to their own materials and runs as experiments. Bourn reads `index.json` from this repository;
+each version of a protocol is a file at `protocols/<id>/<version>.json` in Bourn's protocol format, with boxes that are
 filled each time, fixed, or computed.
 
-Published with `rill protocol publish <id> --channel <this clone>`. Never edit `index.json` by hand: its sizes and
+Published with `bourn protocol publish <id> --channel <this clone>`. Never edit `index.json` by hand: its sizes and
 SHA-256 sums must match the files.
 
 ## Licence and attribution
@@ -13,9 +13,9 @@ SHA-256 sums must match the files.
 Every protocol here is adapted from a protocol on protocols.io published under the Creative Commons Attribution 4.0
 licence (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/). The adaptations (rewritten steps, boxes,
 formulas, cautions and the 繁體中文 text, which is a machine draft) are likewise offered under CC BY 4.0. Each file
-names its source in `source` (title, authors, DOI, licence), and Rill shows it as "Based on <title> · CC BY 4.0".
+names its source in `source` (title, authors, DOI, licence), and Bourn shows it as "Based on <title> · CC BY 4.0".
 
-| Id | Title in Rill | Source (protocols.io) | Authors | DOI | Licence |
+| Id | Title in Bourn | Source (protocols.io) | Authors | DOI | Licence |
 |---|---|---|---|---|---|
 | `nanodrop-quantification` | NanoDrop quantification | Nanodrop - dsDNA Quantification | Owen Butler, Raven Coffer | 10.17504/protocols.io.36wgqx1n5lk5/v1 | CC BY 4.0 |
 | `plasmid-miniprep` | Plasmid miniprep (spin column) | Monarch Spin Plasmid Miniprep (NEB) | Owen Butler, Raven Coffer | 10.17504/protocols.io.n92ld46yxl5b/v1 | CC BY 4.0 |

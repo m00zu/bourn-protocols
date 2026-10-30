@@ -1,5 +1,5 @@
 {
-  "format": "rill-protocol",
+  "format": "bourn-protocol",
   "version": 1,
   "title": {
     "en": "Bacterial transformation (heat shock)",
@@ -27,7 +27,7 @@
     {
       "use": "u-cells",
       "role": "chemically competent E. coli",
-      "kind": "rill:other",
+      "kind": "bourn:other",
       "fields": {
         "notes": "text"
       }
@@ -35,7 +35,7 @@
     {
       "use": "u-plasmid",
       "role": "plasmid DNA",
-      "kind": "rill:plasmid",
+      "kind": "bourn:plasmid",
       "fields": {
         "backbone": "text",
         "insert": "text",
@@ -49,7 +49,7 @@
     {
       "use": "u-soc",
       "role": "SOC outgrowth medium",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -64,7 +64,7 @@
     {
       "use": "u-plates",
       "role": "selective agar plates",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -79,7 +79,7 @@
     {
       "use": "u-tubes",
       "role": "transformation tubes",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -92,7 +92,7 @@
     {
       "use": "i-bath",
       "role": "42 °C water bath or heat block",
-      "kind": "rill:instrument-other",
+      "kind": "bourn:instrument-other",
       "fields": {
         "model": "text",
         "manufacturer": "text",
@@ -105,7 +105,7 @@
     {
       "use": "i-shaker",
       "role": "37 °C shaking incubator",
-      "kind": "rill:instrument-other",
+      "kind": "bourn:instrument-other",
       "fields": {
         "model": "text",
         "manufacturer": "text",

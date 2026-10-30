@@ -1,5 +1,5 @@
 {
-  "format": "rill-protocol",
+  "format": "bourn-protocol",
   "version": 1,
   "title": {
     "en": "cDNA synthesis",
@@ -27,7 +27,7 @@
     {
       "use": "u-rna",
       "role": "purified RNA",
-      "kind": "rill:other",
+      "kind": "bourn:other",
       "fields": {
         "notes": "text"
       }
@@ -35,7 +35,7 @@
     {
       "use": "u-water",
       "role": "nuclease-free water",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -50,7 +50,7 @@
     {
       "use": "u-dntp",
       "role": "10 mM dNTPs",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -63,7 +63,7 @@
     {
       "use": "u-odt",
       "role": "oligo(dT)18 primer, 50 µM",
-      "kind": "rill:primer",
+      "kind": "bourn:primer",
       "fields": {
         "sequence": "text",
         "direction": "text",
@@ -76,7 +76,7 @@
     {
       "use": "u-hex",
       "role": "random hexamers, 50 µM",
-      "kind": "rill:primer",
+      "kind": "bourn:primer",
       "fields": {
         "sequence": "text",
         "direction": "text",
@@ -89,7 +89,7 @@
     {
       "use": "u-buf",
       "role": "5X RT buffer",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -102,7 +102,7 @@
     {
       "use": "u-rt",
       "role": "reverse transcriptase (RevertAid)",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -115,7 +115,7 @@
     {
       "use": "u-tubes",
       "role": "PCR tubes",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -128,7 +128,7 @@
     {
       "use": "i-cycler",
       "role": "thermocycler",
-      "kind": "rill:instrument-other",
+      "kind": "bourn:instrument-other",
       "fields": {
         "model": "text",
         "manufacturer": "text",

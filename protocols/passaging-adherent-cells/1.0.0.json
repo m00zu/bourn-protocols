@@ -1,5 +1,5 @@
 {
-  "format": "rill-protocol",
+  "format": "bourn-protocol",
   "version": 1,
   "title": {
     "en": "Passaging adherent cells",
@@ -28,7 +28,7 @@
     {
       "use": "u-cells",
       "role": "adherent cell line",
-      "kind": "rill:cell-line",
+      "kind": "bourn:cell-line",
       "fields": {
         "species": "text",
         "tissue": "text",
@@ -40,7 +40,7 @@
     {
       "use": "u-pbs",
       "role": "DPBS (no calcium or magnesium)",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -55,7 +55,7 @@
     {
       "use": "u-trypsin",
       "role": "trypsin-EDTA",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -68,7 +68,7 @@
     {
       "use": "u-medium",
       "role": "complete growth medium",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -83,7 +83,7 @@
     {
       "use": "u-trypan",
       "role": "trypan blue",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -96,7 +96,7 @@
     {
       "use": "u-hemo",
       "role": "hemocytometer",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -107,7 +107,7 @@
     {
       "use": "u-tube",
       "role": "15 mL conical tube",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -118,7 +118,7 @@
     {
       "use": "u-vessel",
       "role": "new culture vessel",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -131,7 +131,7 @@
     {
       "use": "i-microscope",
       "role": "inverted microscope",
-      "kind": "rill:instrument-microscope",
+      "kind": "bourn:instrument-microscope",
       "fields": {
         "model": "text",
         "manufacturer": "text",
@@ -144,7 +144,7 @@
     {
       "use": "i-centrifuge",
       "role": "centrifuge",
-      "kind": "rill:instrument-centrifuge",
+      "kind": "bourn:instrument-centrifuge",
       "fields": {
         "model": "text",
         "manufacturer": "text",

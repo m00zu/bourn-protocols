@@ -1,5 +1,5 @@
 {
-  "format": "rill-protocol",
+  "format": "bourn-protocol",
   "version": 1,
   "title": {
     "en": "PCR (Taq, 25 µL)",
@@ -27,7 +27,7 @@
     {
       "use": "u-buffer",
       "role": "10X standard Taq reaction buffer",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -40,7 +40,7 @@
     {
       "use": "u-dntp",
       "role": "10 mM dNTPs",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -53,7 +53,7 @@
     {
       "use": "u-fwd",
       "role": "forward primer",
-      "kind": "rill:primer",
+      "kind": "bourn:primer",
       "fields": {
         "sequence": "text",
         "direction": "text",
@@ -66,7 +66,7 @@
     {
       "use": "u-rev",
       "role": "reverse primer",
-      "kind": "rill:primer",
+      "kind": "bourn:primer",
       "fields": {
         "sequence": "text",
         "direction": "text",
@@ -79,7 +79,7 @@
     {
       "use": "u-template",
       "role": "template DNA",
-      "kind": "rill:other",
+      "kind": "bourn:other",
       "fields": {
         "notes": "text"
       }
@@ -87,7 +87,7 @@
     {
       "use": "u-taq",
       "role": "Taq DNA polymerase",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -100,7 +100,7 @@
     {
       "use": "u-water",
       "role": "nuclease-free water",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -115,7 +115,7 @@
     {
       "use": "u-tubes",
       "role": "PCR tubes",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -128,7 +128,7 @@
     {
       "use": "i-cycler",
       "role": "thermocycler",
-      "kind": "rill:instrument-other",
+      "kind": "bourn:instrument-other",
       "fields": {
         "model": "text",
         "manufacturer": "text",

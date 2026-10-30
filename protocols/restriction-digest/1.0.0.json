@@ -1,5 +1,5 @@
 {
-  "format": "rill-protocol",
+  "format": "bourn-protocol",
   "version": 1,
   "title": {
     "en": "Restriction digest",
@@ -27,7 +27,7 @@
     {
       "use": "u-dna",
       "role": "DNA to digest",
-      "kind": "rill:plasmid",
+      "kind": "bourn:plasmid",
       "fields": {
         "backbone": "text",
         "insert": "text",
@@ -41,7 +41,7 @@
     {
       "use": "u-buffer",
       "role": "10X restriction buffer",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -54,7 +54,7 @@
     {
       "use": "u-enzyme",
       "role": "restriction enzyme",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -67,7 +67,7 @@
     {
       "use": "u-water",
       "role": "nuclease-free water",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -82,7 +82,7 @@
     {
       "use": "u-stop",
       "role": "gel loading dye / stop solution",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -97,7 +97,7 @@
     {
       "use": "i-block",
       "role": "heat block or incubator",
-      "kind": "rill:instrument-other",
+      "kind": "bourn:instrument-other",
       "fields": {
         "model": "text",
         "manufacturer": "text",

@@ -1,5 +1,5 @@
 {
-  "format": "rill-protocol",
+  "format": "bourn-protocol",
   "version": 1,
   "title": {
     "en": "SDS-PAGE and western blot",
@@ -27,7 +27,7 @@
     {
       "use": "u-cells",
       "role": "cultured cells",
-      "kind": "rill:cell-line",
+      "kind": "bourn:cell-line",
       "fields": {
         "species": "text",
         "tissue": "text",
@@ -39,7 +39,7 @@
     {
       "use": "u-trypsin",
       "role": "trypsin",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -52,7 +52,7 @@
     {
       "use": "u-pbs",
       "role": "PBS",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -67,7 +67,7 @@
     {
       "use": "u-ripa",
       "role": "RIPA buffer",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -82,7 +82,7 @@
     {
       "use": "u-pi",
       "role": "protease inhibitor (EDTA-free)",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -95,7 +95,7 @@
     {
       "use": "u-phos",
       "role": "phosphatase inhibitor",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -108,7 +108,7 @@
     {
       "use": "u-assay",
       "role": "detergent-compatible protein assay",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -121,7 +121,7 @@
     {
       "use": "u-dye",
       "role": "6x protein loading dye with 100 mM DTT",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -134,7 +134,7 @@
     {
       "use": "u-gel",
       "role": "4–12% SDS-PAGE gel",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -145,7 +145,7 @@
     {
       "use": "u-marker",
       "role": "prestained protein marker",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -158,7 +158,7 @@
     {
       "use": "u-membrane",
       "role": "nitrocellulose membrane",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -169,7 +169,7 @@
     {
       "use": "u-milk",
       "role": "milk powder",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -182,7 +182,7 @@
     {
       "use": "u-pbst",
       "role": "PBS-T (0.1% Tween 20)",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -197,7 +197,7 @@
     {
       "use": "u-primary",
       "role": "primary antibody",
-      "kind": "rill:antibody",
+      "kind": "bourn:antibody",
       "fields": {
         "target": "text",
         "host": "text",
@@ -214,7 +214,7 @@
     {
       "use": "u-secondary",
       "role": "HRP-coupled secondary antibody",
-      "kind": "rill:antibody",
+      "kind": "bourn:antibody",
       "fields": {
         "target": "text",
         "host": "text",
@@ -231,7 +231,7 @@
     {
       "use": "u-ecl",
       "role": "chemiluminescent HRP substrate",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -246,7 +246,7 @@
     {
       "use": "i-centrifuge",
       "role": "refrigerated centrifuge",
-      "kind": "rill:instrument-centrifuge",
+      "kind": "bourn:instrument-centrifuge",
       "fields": {
         "model": "text",
         "manufacturer": "text",
@@ -259,7 +259,7 @@
     {
       "use": "i-transfer",
       "role": "wet transfer tank",
-      "kind": "rill:instrument-other",
+      "kind": "bourn:instrument-other",
       "fields": {
         "model": "text",
         "manufacturer": "text",
@@ -272,7 +272,7 @@
     {
       "use": "i-imager",
       "role": "chemiluminescence imager",
-      "kind": "rill:instrument-other",
+      "kind": "bourn:instrument-other",
       "fields": {
         "model": "text",
         "manufacturer": "text",

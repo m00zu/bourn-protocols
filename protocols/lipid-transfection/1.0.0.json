@@ -1,5 +1,5 @@
 {
-  "format": "rill-protocol",
+  "format": "bourn-protocol",
   "version": 1,
   "title": {
     "en": "Transient transfection (lipid reagent)",
@@ -29,7 +29,7 @@
     {
       "use": "u-cells",
       "role": "HEK cells",
-      "kind": "rill:cell-line",
+      "kind": "bourn:cell-line",
       "fields": {
         "species": "text",
         "tissue": "text",
@@ -41,7 +41,7 @@
     {
       "use": "u-plasmid",
       "role": "plasmid DNA",
-      "kind": "rill:plasmid",
+      "kind": "bourn:plasmid",
       "fields": {
         "backbone": "text",
         "insert": "text",
@@ -55,7 +55,7 @@
     {
       "use": "u-optimem",
       "role": "Opti-MEM reduced-serum medium",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -70,7 +70,7 @@
     {
       "use": "u-lipo",
       "role": "Lipofectamine 3000 reagent",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -83,7 +83,7 @@
     {
       "use": "u-p3000",
       "role": "P3000 reagent",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -96,7 +96,7 @@
     {
       "use": "u-plate",
       "role": "24-well plate",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -109,7 +109,7 @@
     {
       "use": "i-microscope",
       "role": "inverted microscope",
-      "kind": "rill:instrument-microscope",
+      "kind": "bourn:instrument-microscope",
       "fields": {
         "model": "text",
         "manufacturer": "text",

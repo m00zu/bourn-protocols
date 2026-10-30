@@ -1,5 +1,5 @@
 {
-  "format": "rill-protocol",
+  "format": "bourn-protocol",
   "version": 1,
   "title": {
     "en": "NanoDrop quantification",
@@ -28,7 +28,7 @@
     {
       "use": "u-sample",
       "role": "nucleic acid sample",
-      "kind": "rill:other",
+      "kind": "bourn:other",
       "fields": {
         "notes": "text"
       }
@@ -36,7 +36,7 @@
     {
       "use": "u-blank",
       "role": "blank buffer (the sample's own buffer)",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -51,7 +51,7 @@
     {
       "use": "u-water",
       "role": "deionized water",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -66,7 +66,7 @@
     {
       "use": "u-wipes",
       "role": "lint-free wipes",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -79,7 +79,7 @@
     {
       "use": "i-nanodrop",
       "role": "microvolume spectrophotometer",
-      "kind": "rill:instrument-spectrophotometer",
+      "kind": "bourn:instrument-spectrophotometer",
       "fields": {
         "model": "text",
         "manufacturer": "text",

@@ -1,5 +1,5 @@
 {
-  "format": "rill-protocol",
+  "format": "bourn-protocol",
   "version": 1,
   "title": {
     "en": "qPCR setup (SYBR Green)",
@@ -28,7 +28,7 @@
     {
       "use": "u-mm",
       "role": "2X SYBR Green master mix",
-      "kind": "rill:reagent",
+      "kind": "bourn:reagent",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -41,7 +41,7 @@
     {
       "use": "u-fwd",
       "role": "forward primer",
-      "kind": "rill:primer",
+      "kind": "bourn:primer",
       "fields": {
         "sequence": "text",
         "direction": "text",
@@ -54,7 +54,7 @@
     {
       "use": "u-rev",
       "role": "reverse primer",
-      "kind": "rill:primer",
+      "kind": "bourn:primer",
       "fields": {
         "sequence": "text",
         "direction": "text",
@@ -67,7 +67,7 @@
     {
       "use": "u-cdna",
       "role": "cDNA",
-      "kind": "rill:other",
+      "kind": "bourn:other",
       "fields": {
         "notes": "text"
       }
@@ -75,7 +75,7 @@
     {
       "use": "u-water",
       "role": "nuclease-free water",
-      "kind": "rill:medium-buffer",
+      "kind": "bourn:medium-buffer",
       "fields": {
         "composition": "text",
         "ph": "number",
@@ -90,7 +90,7 @@
     {
       "use": "u-plate",
       "role": "optical reaction plate",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -101,7 +101,7 @@
     {
       "use": "u-seal",
       "role": "optical adhesive cover",
-      "kind": "rill:consumable",
+      "kind": "bourn:consumable",
       "fields": {
         "supplier": "text",
         "catalogue_no": "text",
@@ -114,7 +114,7 @@
     {
       "use": "i-qpcr",
       "role": "real-time PCR instrument",
-      "kind": "rill:instrument-qpcr-cycler",
+      "kind": "bourn:instrument-qpcr-cycler",
       "fields": {
         "model": "text",
         "manufacturer": "text",
