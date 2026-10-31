@@ -30,8 +30,8 @@
         {
           "version": "1.0.0",
           "path": "protocols/agarose-gel-electrophoresis/1.0.0.json",
-          "sha256": "2aafc6fcd754919483e7bf79de775beb0ad7c47729939aca65d364e0f46f5d17",
-          "size": 24596,
+          "sha256": "17a515e423a60aa0f970c41918f500c31cc28f4c50bf124e5056b494ee7ace96",
+          "size": 24607,
           "released": "2026-10-10",
           "notes": {
             "en": "First catalogue version. Adapted for Bourn from “Agarose Gel Electrophoresis: DNA” by Raven Coffer (DAMP Lab) (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -42,8 +42,8 @@
         {
           "version": "1.1.0",
           "path": "protocols/agarose-gel-electrophoresis/1.1.0.json",
-          "sha256": "8e73bf8dc4d787451df0d2b3e38a05381409f818f897685ae0acaa7d20e13638",
-          "size": 25222,
+          "sha256": "62fc6e1aed5d1d595f8a83779bfbdc64f8c2916e1660a3ea14b4f4e8ab24fcaf",
+          "size": 25233,
           "released": "2026-10-16",
           "notes": {
             "en": "1.1.0: a change of form, not of science (every value and source kept): the loading order is recorded in gel lanes, the ladder in lane 1. 1.0.1: step durations added; each step that states a time (a time box, or a time in its text) now carries it, so the Timeline plans the protocol. No change to the text or the boxes. 1.0.0: Adapted for Bourn from “Agarose Gel Electrophoresis: DNA” by Raven Coffer (DAMP Lab) (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -81,8 +81,8 @@
         {
           "version": "1.0.0",
           "path": "protocols/bca-protein-assay/1.0.0.json",
-          "sha256": "d66849096cf413c2fd1c56e9a18b6dfd007acef8ce613a3d28d55f8997263d08",
-          "size": 20684,
+          "sha256": "4ccf691350ce693c456cc1e418b2c8ff774bf8d975fa6708be087d094d02c23c",
+          "size": 20693,
           "released": "2026-10-10",
           "notes": {
             "en": "First catalogue version. Adapted for Bourn from “Pierce™ BCA Protein Assay (ThermoFisher Scientific)” by Rita Chen and Raven Coffer (DAMP Lab) (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -93,8 +93,8 @@
         {
           "version": "1.2.0",
           "path": "protocols/bca-protein-assay/1.2.0.json",
-          "sha256": "fd1c16a0925324f5d0513f33b387f7a7c23584da1668c56e119cabab66dd357d",
-          "size": 32374,
+          "sha256": "d6607f1565b749c7b0c61cdd8afde700db4536f1d89ab58bb908f7ecec0938a3",
+          "size": 32383,
           "released": "2026-10-16",
           "notes": {
             "en": "1.2.0: the plate takes the A562 reading (typed, pasted or imported from the plate reader's file) and step 6 fits the standard curve itself, linear by default (quadratic and 4-parameter offered with their R²): the blank is subtracted, replicates averaged and each sample read off the curve and multiplied back by its dilution. This replaces the slope, intercept, readings and dilution typed by hand in steps 6–7 (the same linear fit, now done by Bourn); every other value and source is kept. 1.1.0: a change of form, not of science (every value and source kept): the standards are a dilution table, and the plate is a 96-well layout whose standards A–I (columns 1–9, in triplicate) the protocol fixes, the samples filled with Fill pattern. 1.0.1: step durations added; each step that states a time (a time box, or a time in its text) now carries it, so the Timeline plans the protocol. Step 4 takes the incubation box as its duration and the 10 min cooling as the wait after it; the wait is a typed 10 min and does not follow the cooling box if that is edited. No change to the text or the boxes. 1.0.0: Adapted for Bourn from “Pierce™ BCA Protein Assay (ThermoFisher Scientific)” by Rita Chen and Raven Coffer (DAMP Lab) (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -132,8 +132,8 @@
         {
           "version": "1.0.0",
           "path": "protocols/cdna-synthesis/1.0.0.json",
-          "sha256": "692b179fb883fd657ef1fd7495cf73803a5ac5498c9cdc148326bd43f019e2ac",
-          "size": 21005,
+          "sha256": "7e6b00087941f501b3f1cf958acec6049a5d805e5c3b986e9ac02bb2f4dcb2fa",
+          "size": 21015,
           "released": "2026-10-10",
           "notes": {
             "en": "First catalogue version. Adapted for Bourn from “Reverse Transcription (cDNA generation) using RevertAid RT” by David Valle-Garcia (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -144,8 +144,8 @@
         {
           "version": "1.1.0",
           "path": "protocols/cdna-synthesis/1.1.0.json",
-          "sha256": "15ac334fa1fcc17c0c97fba3d5fabe6b5475d5990b8044a61519ed2f16820e79",
-          "size": 25673,
+          "sha256": "60650cc4ac170d5a698790d8265d46fbe763edd69bbdbd956bf3b3589da020b6",
+          "size": 25683,
           "released": "2026-10-16",
           "notes": {
             "en": "1.1.0: a change of form, not of science (every value and source kept): the enzyme mix is a table, and the incubation is a thermal program (its hold times are the step's duration). 1.0.1: step durations added; each step that states a time (a time box, or a time in its text) now carries it, so the Timeline plans the protocol. No change to the text or the boxes. 1.0.0: Adapted for Bourn from “Reverse Transcription (cDNA generation) using RevertAid RT” by David Valle-Garcia (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -183,8 +183,8 @@
         {
           "version": "1.0.0",
           "path": "protocols/dna-ligation/1.0.0.json",
-          "sha256": "584838be35d58e4aea473d1644180f6529589ae13199a49d069eef66b7478cd6",
-          "size": 22119,
+          "sha256": "4e83988c58419e4d168a15f56042d6762ce52324753f4e43d0247cbb1ea643c5",
+          "size": 22127,
           "released": "2026-10-10",
           "notes": {
             "en": "First catalogue version. Adapted for Bourn from “Ligation Protocol WITH T4 DNA Ligase (M0202)” by New England Biolabs (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -195,8 +195,8 @@
         {
           "version": "1.1.0",
           "path": "protocols/dna-ligation/1.1.0.json",
-          "sha256": "d3aae293494599c816100739bb60f62892025b99a7af8f65b754385759480cd4",
-          "size": 22742,
+          "sha256": "54d33989c009b4cafc6431ce654c880813db55f293d7fb8381846ddcf959b8ba",
+          "size": 22750,
           "released": "2026-10-16",
           "notes": {
             "en": "1.1.0: a change of form, not of science (every value and source kept): the reaction is a table in one step (water fills to the reaction volume; the ligase its last row, added last). 1.0.1: step durations added; each step that states a time (a time box, or a time in its text) now carries it, so the Timeline plans the protocol. No change to the text or the boxes. 1.0.0: Adapted for Bourn from “Ligation Protocol WITH T4 DNA Ligase (M0202)” by New England Biolabs (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -234,8 +234,8 @@
         {
           "version": "1.0.0",
           "path": "protocols/heat-shock-transformation/1.0.0.json",
-          "sha256": "f16fdfb1af367646e0f88f6eb3781a767b5eb6fdd8c48c5dc9e80e917d482060",
-          "size": 19759,
+          "sha256": "f48a9b09f8700014a1c589d5936b9b5e26935fea7736ed4cda1281f16d699cfe",
+          "size": 19767,
           "released": "2026-10-10",
           "notes": {
             "en": "First catalogue version. Adapted for Bourn from “High Efficiency Transformation” by New England Biolabs (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -246,8 +246,8 @@
         {
           "version": "1.0.1",
           "path": "protocols/heat-shock-transformation/1.0.1.json",
-          "sha256": "0a253b3e0468cfd42f4ac9d25ee6306ad12d2df0d79b68afc286a5e07ba52246",
-          "size": 20084,
+          "sha256": "91f95ff8eb1ed6fc1f57a0b46352e9389af0bb1881adc2270dbb33e25064deeb",
+          "size": 20092,
           "released": "2026-10-16",
           "notes": {
             "en": "1.0.1: step durations added; each step that states a time (a time box, or a time in its text) now carries it, so the Timeline plans the protocol. No change to the text or the boxes. 1.0.0: Adapted for Bourn from “High Efficiency Transformation” by New England Biolabs (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -286,8 +286,8 @@
         {
           "version": "1.0.0",
           "path": "protocols/lipid-transfection/1.0.0.json",
-          "sha256": "f652f434d361275f7d9dce7fd47331ed6cd73f170cd96577fd995b9f908b74e6",
-          "size": 19646,
+          "sha256": "13f307d607cd265934758b1657ea15fb37b1fba502015cac13725de7f3ea18de",
+          "size": 19654,
           "released": "2026-10-10",
           "notes": {
             "en": "First catalogue version. Adapted for Bourn from “Transfection of HEK cells with Lipofectamine 3000” by Chelsie Steele and Yujie Fan (Caltech) (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -298,8 +298,8 @@
         {
           "version": "1.1.0",
           "path": "protocols/lipid-transfection/1.1.0.json",
-          "sha256": "235c4c2a5ca4be74aa3a4f5f047632322e9ae3c07de85d5c085ffc40ea941a21",
-          "size": 23359,
+          "sha256": "87c808c70df5c965af147bdb385f62953cd5ecd62c0cf95a386828804d427f3f",
+          "size": 23367,
           "released": "2026-10-16",
           "notes": {
             "en": "1.1.0: a change of form, not of science (every value and source kept): tubes 1 and 2 are per-well tables, and the transfected wells are recorded on the 24-well plate. 1.0.1: step durations added; each step that states a time (a time box, or a time in its text) now carries it, so the Timeline plans the protocol. No change to the text or the boxes. 1.0.0: Adapted for Bourn from “Transfection of HEK cells with Lipofectamine 3000” by Chelsie Steele and Yujie Fan (Caltech) (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -337,8 +337,8 @@
         {
           "version": "1.0.0",
           "path": "protocols/nanodrop-quantification/1.0.0.json",
-          "sha256": "edac288814ff1eea0426c939d7d702be9e6a2604f5f8dc6b22e3be637c414ca9",
-          "size": 14543,
+          "sha256": "cdf2c70d6643eabdcc15a7a27595c6800a339c899bf3def809d71b879b6777ce",
+          "size": 14549,
           "released": "2026-10-10",
           "notes": {
             "en": "First catalogue version. Adapted for Bourn from “Nanodrop - dsDNA Quantification” by Owen Butler and Raven Coffer (DAMP Lab) (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -377,8 +377,8 @@
         {
           "version": "1.0.0",
           "path": "protocols/passaging-adherent-cells/1.0.0.json",
-          "sha256": "d472ffadcaaa5b1a5eaa3dad3bb0191d1db27e5da003e0461b8eb69fe568a1f3",
-          "size": 21435,
+          "sha256": "a6bfb4ba081aedd5e7f0620503a96217c92845d8d6c549bc6b0bd342ccd1f496",
+          "size": 21446,
           "released": "2026-10-10",
           "notes": {
             "en": "First catalogue version. Adapted for Bourn from “Detailed adherent cell passaging protocol” by Ainsley Lederer (University of Pittsburgh) (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -389,8 +389,8 @@
         {
           "version": "1.0.1",
           "path": "protocols/passaging-adherent-cells/1.0.1.json",
-          "sha256": "2198d98820f66f838d6c67a4364310b251d766c64900873021d3f85d59c03735",
-          "size": 21575,
+          "sha256": "6082285d10bd27d3c31357e122d5ceb5a3b9c4468773b0491259cc51ad7346da",
+          "size": 21586,
           "released": "2026-10-16",
           "notes": {
             "en": "1.0.1: step durations added; each step that states a time (a time box, or a time in its text) now carries it, so the Timeline plans the protocol. No change to the text or the boxes. 1.0.0: Adapted for Bourn from “Detailed adherent cell passaging protocol” by Ainsley Lederer (University of Pittsburgh) (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -428,8 +428,8 @@
         {
           "version": "1.0.0",
           "path": "protocols/pcr-taq-25ul/1.0.0.json",
-          "sha256": "713d13e81653d7cb902d84808224cf8958ec7f4fbfbdcab7048b065fee92dbe0",
-          "size": 29113,
+          "sha256": "56ba6eb69ac8d96ba7d5e0281d314742a070de42e3a6aa03b31b2d0e6220eb20",
+          "size": 29123,
           "released": "2026-10-10",
           "notes": {
             "en": "First catalogue version. Adapted for Bourn from “PCR with Taq DNA Polymerase with Standard Taq Buffer (M0273)” by New England Biolabs (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -440,8 +440,8 @@
         {
           "version": "1.1.0",
           "path": "protocols/pcr-taq-25ul/1.1.0.json",
-          "sha256": "14c7a0e9e0f54c3b4bc7f4cc48d86a11404936b47db0a082dbaa6d6c2ddb113a",
-          "size": 33924,
+          "sha256": "6856c1ee1baf810c00d3ad1a3e79767c52ee23a12c20f7f05b0548ea97a8952e",
+          "size": 33935,
           "released": "2026-10-16",
           "notes": {
             "en": "1.1.0: a change of form, not of science (every value and source kept): the master mix is a table in one step (water fills to the mix per tube; forward and reverse primer each a row; the Taq its last row, added last), the cycling is a thermal program whose hold times are the step's duration (it replaces the Cycling time box and the two steps it took), the tubes are recorded in a PCR block, and the spin-down names a microcentrifuge (with the balance helper, counting Reactions). 1.0.1: step durations added; each step that states a time (a time box, or a time in its text) now carries it, so the Timeline plans the protocol; the cycling step gains a computed Cycling time (cycles × (denaturation + annealing + extension)), named in its text, as its duration. 1.0.0: Adapted for Bourn from “PCR with Taq DNA Polymerase with Standard Taq Buffer (M0273)” by New England Biolabs (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -479,8 +479,8 @@
         {
           "version": "1.0.0",
           "path": "protocols/plasmid-miniprep/1.0.0.json",
-          "sha256": "8d37ae5054af27b585eb53ca18ae36970e8416c49c4755a4f6ddae2df4de1a81",
-          "size": 34828,
+          "sha256": "dbef8a409bf5e4e0bf768f4060ca40863f74342b04609c1a86c5b6d70555ca1c",
+          "size": 34844,
           "released": "2026-10-10",
           "notes": {
             "en": "First catalogue version. Adapted for Bourn from “Monarch Spin Plasmid Miniprep (NEB)” by Owen Butler and Raven Coffer (DAMP Lab) (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -491,8 +491,8 @@
         {
           "version": "1.1.0",
           "path": "protocols/plasmid-miniprep/1.1.0.json",
-          "sha256": "ca1f9c152abac04b7cee9e9febf3b25cefccdd6397363f6a7c2a554b59f957a9",
-          "size": 36292,
+          "sha256": "9d070477dd6450337f801334dd8ab091f110eb8f171111347c4b9e758f71b18c",
+          "size": 36308,
           "released": "2026-10-16",
           "notes": {
             "en": "1.1.0: a change of form, not of science (every value and source kept): the lysate spin and the first column spin name the microcentrifuge (with the balance helper). 1.0.1: step durations added; each step that states a time (a time box, or a time in its text) now carries it, so the Timeline plans the protocol. No change to the text or the boxes. 1.0.0: Adapted for Bourn from “Monarch Spin Plasmid Miniprep (NEB)” by Owen Butler and Raven Coffer (DAMP Lab) (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -530,8 +530,8 @@
         {
           "version": "1.0.0",
           "path": "protocols/qpcr-sybr/1.0.0.json",
-          "sha256": "0221893aea597368ac3a66167d1dd7808f0f8fe01b557aafb000b6f808be8bfe",
-          "size": 22044,
+          "sha256": "cd3893e0a47d76c20a7b99d6ba6d45ef568c98ba27432d9b126faa1d671dcde8",
+          "size": 22053,
           "released": "2026-10-10",
           "notes": {
             "en": "First catalogue version. Adapted for Bourn from “qPCR (SYBR Green)” by Vanessa Howland and Yue Ma (Van Andel Institute) (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -542,8 +542,8 @@
         {
           "version": "1.1.0",
           "path": "protocols/qpcr-sybr/1.1.0.json",
-          "sha256": "256e9429ee59fdf6c53dbc794c4432baa6d2bb74e31de0133b8140713be7bd85",
-          "size": 32838,
+          "sha256": "00ae5ab28af0b80605c2f57da254795c6a8d667d3dc5a1e5a159b8fff0cffeef",
+          "size": 32847,
           "released": "2026-10-16",
           "notes": {
             "en": "1.1.0: a change of form, not of science (every value and source kept): the mix is a table (water fills to the mix per well), the cycling and melt curve are one thermal program, and the plate is a qPCR plate layout whose no-template controls (column 9) the protocol fixes, the samples filled with Fill pattern. First catalogue version. Adapted for Bourn from “qPCR (SYBR Green)” by Vanessa Howland and Yue Ma (Van Andel Institute) (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -581,8 +581,8 @@
         {
           "version": "1.0.0",
           "path": "protocols/restriction-digest/1.0.0.json",
-          "sha256": "e52dcdb5923dc4759ea847b27484aa5f2edb81e763ef1de491810e99c1fdd3a7",
-          "size": 13478,
+          "sha256": "2c33fcd60c5afee9aa4b172266d13b901288fb52da86c2d8ae6aa607e2a6c504",
+          "size": 13485,
           "released": "2026-10-10",
           "notes": {
             "en": "First catalogue version. Adapted for Bourn from “Restriction Digest” by New England Biolabs (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -593,8 +593,8 @@
         {
           "version": "1.1.0",
           "path": "protocols/restriction-digest/1.1.0.json",
-          "sha256": "0c5d4ed23aa329ab234e15352ba590070f62317c4ba87e50e583d4a722c8196b",
-          "size": 14287,
+          "sha256": "378a43ccd9254844c3ed319aaf4edfcb1a8b09391b8b6ae6e7041cf84d6bbf5a",
+          "size": 14294,
           "released": "2026-10-16",
           "notes": {
             "en": "1.1.0: a change of form, not of science (every value and source kept): the reaction is a table in one step (water fills to 50 µL; the enzyme its last row, added last). 1.0.1: step durations added; each step that states a time (a time box, or a time in its text) now carries it, so the Timeline plans the protocol. No change to the text or the boxes. 1.0.0: Adapted for Bourn from “Restriction Digest” by New England Biolabs (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -632,8 +632,8 @@
         {
           "version": "1.0.0",
           "path": "protocols/rna-extraction-column/1.0.0.json",
-          "sha256": "c0f09792609b7c2d6a8e5d68eebb31c458cbe9a5d7aceeb518f597d2a4ba5c09",
-          "size": 28720,
+          "sha256": "d2145207db75ee5d28d8f6fb0caac871335920f78d7eaf5c6acb35fe492fdc46",
+          "size": 28735,
           "released": "2026-10-10",
           "notes": {
             "en": "First catalogue version. Adapted for Bourn from “Purification of Total RNA from Cells Using Spin Technology” by Malu Tansey (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -644,8 +644,8 @@
         {
           "version": "1.1.0",
           "path": "protocols/rna-extraction-column/1.1.0.json",
-          "sha256": "4f078b31886f189387ed6c3016220242c4eab64e76e03a7cb8d1601598a25056",
-          "size": 29511,
+          "sha256": "930d09338341a03ce399aa69b215a46f54d5d5837af54585a833301c0c588faf",
+          "size": 29526,
           "released": "2026-10-16",
           "notes": {
             "en": "1.1.0: a change of form, not of science (every value and source kept): the column spin names the microcentrifuge, and the balance helper counts Samples. 1.0.1: step durations added; each step that states a time (a time box, or a time in its text) now carries it, so the Timeline plans the protocol. No change to the text or the boxes. 1.0.0: Adapted for Bourn from “Purification of Total RNA from Cells Using Spin Technology” by Malu Tansey (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -683,8 +683,8 @@
         {
           "version": "1.0.0",
           "path": "protocols/sds-page-western-blot/1.0.0.json",
-          "sha256": "6883a8f138e5bbb8a33baaf4f6feb1fd74da5d2e3ae8bbf47ee32390e83d7007",
-          "size": 32855,
+          "sha256": "0740062df4b2db346ccd9070a60d185f44e4e672c77b8dc31b2d0bb5d91508af",
+          "size": 32875,
           "released": "2026-10-10",
           "notes": {
             "en": "First catalogue version. Adapted for Bourn from “SDS-PAGE and western blot analysis” by Elias Adriaenssens (Sascha Martens lab) (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -695,8 +695,8 @@
         {
           "version": "1.1.0",
           "path": "protocols/sds-page-western-blot/1.1.0.json",
-          "sha256": "20ed6e47d5d37810e4efcc042dce74257bf45a98209878991f893559ba005de0",
-          "size": 34065,
+          "sha256": "07a8f49c16e3c5d8a4118a070de388aa8cd94fc93973cac7402491a9d650cfb4",
+          "size": 34085,
           "released": "2026-10-16",
           "notes": {
             "en": "1.1.0: a change of form, not of science (every value and source kept): the loading order is recorded in gel lanes, the marker in lane 1. 1.0.1: step durations added; each step that states a time (a time box, or a time in its text) now carries it, so the Timeline plans the protocol. The two three-wash steps are planned as a fixed 15 min (3 × 5 min); that duration does not follow the wash box if it is edited. No change to the text or the boxes. 1.0.0: Adapted for Bourn from “SDS-PAGE and western blot analysis” by Elias Adriaenssens (Sascha Martens lab) (CC BY 4.0): rewritten in Bourn's own words, with boxes, computed values and unlinked material uses. The 繁體中文 text is a machine draft awaiting a person's confirmation.",
@@ -734,8 +734,8 @@
         {
           "version": "1.0.0",
           "path": "protocols/bradford-protein-assay/1.0.0.json",
-          "sha256": "1343ec70b8669c3f88a82b69466c4fee9636cff60be5c9f4bec98cf3914268fa",
-          "size": 23171,
+          "sha256": "6d8a1bef56e9e776a79459ddf1f512af7c056319515639654e34dc6196c971e4",
+          "size": 23179,
           "released": "2026-10-16",
           "notes": {
             "en": "1.0.0: Adapted for Bourn from “Bradford protein assay – Protein concentration measurement (single 595 nm read)” by Daniel C. Moreira (protocols.io, CC BY 4.0), after M. M. Bradford, Anal. Biochem. 72 (1976) 248–254: rewritten in Bourn's own words, with the standards as a dilution table, a 96-well layout, the A595 reading and a fitted standard curve (quadratic by default), and an optional table of equal loads for a gel (each sample's µL for the curve's amount, Laemmli and water). The 繁體中文 text is a machine draft awaiting a person's confirmation.",
